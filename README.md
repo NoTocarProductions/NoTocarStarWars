@@ -8,6 +8,8 @@ The frontend folder deals with client side operations.
 
 To run the app on your local computer go to your code editor and open the map.
 
+Install node.js if you haven't yet.
+
 Open a terminal and navigate to the backend folder. 
 Type '/cd backend'.
 Type 'npm install' in the terminal to download all dependencies.
