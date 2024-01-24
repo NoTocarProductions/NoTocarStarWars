@@ -16,7 +16,10 @@ To start the server type 'npm run start'.
 Open a second terminal and navigate to the frontend folder.
 Type '/cd frontend'.
 Type 'npm install' in the terminal to download all dependencies.
+Type 'npm install @reduxjs/toolkit' to install the redux toolkit needed for this app to operate.
 To start the server type 'npm run start'.
+
+Both servers need to be up and running in order for the app to work.
 
 A new window will open with the running app.
 
