@@ -8,6 +8,8 @@ button.pageButton {
     outline: none; /* Remove the default focus outline */
     background-color: rgba(42, 42, 42, 0.267);
     margin: auto 2px;
+    color: var(--color-gray-500);
+
 }
 
 button.pageButton:hover {
