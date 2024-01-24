@@ -36,7 +36,7 @@ div.containerBox__div__img img {
 div.containerBox__div h2 {
     position: absolute;
     left: 50%;
-    top: 25%;
+    top: 21%;
     padding: 0;
     transform: translateX(-50%);
     font-size: 4rem;
