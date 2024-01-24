@@ -7,7 +7,7 @@ export default function LoaderPage() {
         <p class={classes.introText}>A few days ago, during...</p>
 
         <h2 class={classes.mainLogo}>
-          <img src="./assets/img/Star_Wars_Logo.png" alt="The Life of Darth RotKiv" />
+          The Life of Darth RotKiv
         </h2>
 
         <div class={classes.mainContent}>
