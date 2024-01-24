@@ -1,0 +1,62 @@
+.form {
+  max-width: 40rem;
+  margin: 2rem auto;
+}
+
+.form h1 {
+  line-height: 0.8em;
+  /* letter-spacing: 0.05em; */
+  color: var(--color-starwars-normal);
+  font-size: 4rem;
+}
+
+.form label,
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.25rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: var(--color-gray-300);
+  color: var(--color-gray-800);
+  border: none;
+}
+
+.linkLeft {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid grey;
+  background-color: transparent;
+  border-radius: 4px;
+  background-color: rgba(42, 42, 42, 0.267);
+  position: relative;
+  font-weight: 600;
+  color: var(--color-gray-400);
+  margin: 0;
+}
+
+.actions button:hover {
+  background-color: var(--color-starwars-normal);
+}
+
+.actions a:hover {
+  background-color: var(--color-starwars-normal);
+  color: black;
+}

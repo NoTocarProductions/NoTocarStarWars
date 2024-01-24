@@ -1,0 +1,26 @@
+button.loginButton {
+    display: block;
+    padding: 6px 12px;
+    border: 1px solid grey;
+    background-color: transparent;
+    border-radius: 5px;
+    outline: none; /* Remove the default focus outline */
+    background-color: rgba(42, 42, 42, 0.267);
+    margin: auto;
+    position: relative;
+    font-weight: 600;
+    color: var(--color-gray-400)
+}
+
+button.loginButton:hover {
+    border: 1px solid rgba(42, 42, 42, 0.267);
+    color: black;
+    cursor: pointer;
+    background-color: var(--color-starwars-normal);
+    font-weight: 600;
+
+}
+
+button.loginButton span {
+    font-weight: 800;
+}

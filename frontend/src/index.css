@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-gray-100: #f4f3f1;
+  --color-gray-200: #dddbd8;
+  --color-gray-300: #ccc9c6;
+  --color-gray-400: #aeaba7;
+  --color-gray-500: #8a8784;
+  --color-gray-600: #656360;
+  --color-gray-700: #4b4a47;
+  --color-gray-800: #31302e;
+  --color-gray-900: #1f1d1b;
+
+  --color-primary-100: #fcf3e1;
+  --color-primary-200: #fceccd;
+  --color-primary-300: #fae1af;
+  --color-primary-400: #fbd997;
+  --color-primary-500: #ffd37c;
+  --color-primary-600: #f9c762;
+  --color-primary-700: #fbc14d;
+  --color-primary-800: #fab833;
+  --color-primary-900: #f6ad1b;
+
+
+  --color-starwars-normal: #feda4a;
+}
+
+@media only screen and (max-width: 1000px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  :root {
+    font-size: 40%;
+  }
+}
+
+body {
+  font-family: DM Serif Text, serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--colorGrey-dark-700);
+  background-color: #0b0b0d;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  z-index: -1;
+  color: #fff;
+  width: 100%;
+  margin: auto;
+  scroll-behavior: smooth;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  left: -10rem;
+  z-index: 9999;
+  top: -10rem;
+  width: calc(100% + 20rem);
+  height: calc(100% + 20rem);
+  background-image: url('../src/assets/rootImg/stars.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 0.15;
+  pointer-events: none;
+  animation: noise 2s steps(2) infinite;
+  z-index: -10;
+}
+p.loginText {
+  position: relative;
+  margin-top: 10rem;
+  text-align: center;
+}
+/* a.linkToLogin {
+  margin: 2rem auto;
+  display: block;
+  width: 5rem;
+  text-align: center;
+  padding: 6px 16px;
+  border-radius: 5px;
+  border: 1px solid var(--color-gray-200);
+  color: var(--color-gray-100);
+  background-color: var(--color-gray-900);
+  opacity: 0.8;
+}
+
+a.linkToLogin:hover {
+  border: 3px solid var(--color-gray-900);
+  color: var(--color-gray-900);
+  background-color: var(--color-starwars-normal);
+} */
+
+@-webkit-keyframes noise {
+  to {
+    transform: translate3d(-7rem, 0, 0);
+  }
+}
+
+@keyframes noise {
+  0% {
+    transform: translate3d(0, 9rem, 0);
+  }
+
+  10% {
+    transform: translate3d(-1rem, -4rem, 0);
+  }
+
+  20% {
+    transform: translate3d(-8rem, 2rem, 0);
+  }
+
+  30% {
+    transform: translate3d(9rem, -9rem, 0);
+  }
+
+  40% {
+    transform: translate3d(-2rem, 7rem, 0);
+  }
+
+  50% {
+    transform: translate3d(-9rem, -4rem, 0);
+  }
+
+  60% {
+    transform: translate3d(2rem, 6rem, 0);
+  }
+
+  70% {
+    transform: translate3d(7rem, -8rem, 0);
+  }
+
+  80% {
+    transform: translate3d(-9rem, 1rem, 0);
+  }
+
+  90% {
+    transform: translate3d(6rem, -5rem, 0);
+  }
+
+  to {
+    transform: translate3d(-7rem, 0, 0);
+  }
+}
+
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

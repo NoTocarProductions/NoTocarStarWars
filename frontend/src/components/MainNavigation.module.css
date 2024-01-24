@@ -1,0 +1,41 @@
+.header {
+  max-width: 100vw;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  gap: 1.5rem;
+}
+
+
+
+.list a {
+  text-decoration: none;
+  color: var(--color-primary-400);
+}
+
+
+
+.list a:hover,
+.list a.active {
+  color: var(--color-primary-800);
+}
+
+div.logoContainer {
+  left: 1%;
+  top: 1%;
+  height: 3rem;
+  width: 5rem;
+  position: absolute;
+  display: inline-block;
+}
+div.logoContainer img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

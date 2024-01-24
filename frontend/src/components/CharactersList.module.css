@@ -1,0 +1,94 @@
+@keyframes comeDown {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+
+h1.listTitle {
+  text-align: center;
+  line-height: 0.8em;
+  /* letter-spacing: 0.05em; */
+  color: #000;
+  text-shadow: -2px -2px 0 #EBD71C, 2px -2px 0 #EBD71C, -2px 2px 0 #EBD71C, 2px 2px 0 #EBD71C;
+  font-size: 5rem;
+  margin-bottom: 6rem;
+  animation: comeDown 1s;
+}
+
+.events {
+  margin: 2rem auto;
+  max-width: 40rem;
+}
+
+.list li:not(:last-of-type) {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.item a {
+  text-decoration: none;
+  color: #feda4a; 
+  display: flex;
+  flex-direction: column-reverse;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 25rem;
+  height: 30rem;
+  margin: auto;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+
+div.characterImgContainer {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+}
+
+.item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+}
+
+
+.item img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px 2px rgba(103, 154, 204, 0.3);
+}
+
+.content {
+  padding: 1rem;
+}
+.item h2 {
+  margin: auto;
+}
+
+menu {
+  position: relative;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+
+.plusminusButton {
+  padding: 8px 24px;
+  margin: auto 1rem;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.plusminusButton:hover {
+  border: 1px solid rgba(42, 42, 42, 0.267);
+  color: black;
+  cursor: pointer;
+  background-color: var(--color-starwars-normal);
+  border-radius: 5px;
+
+}

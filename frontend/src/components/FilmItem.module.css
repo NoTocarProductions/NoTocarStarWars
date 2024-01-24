@@ -1,0 +1,63 @@
+.event {
+    max-width: 50rem;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.event a {
+    display: inline-block;
+    max-width: 30%;
+    margin: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--color-starwars-normal);
+}
+
+.event img {
+    width: 100%;
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.event a:hover {
+    text-decoration: underline;
+}
+
+div.characterList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+}
+
+div.characterContainer {
+    display: flex;
+    max-width: 20rem;
+    max-height: 10rem;
+    gap: 1rem;
+}
+
+div.characterContainerImage {
+    max-height: 5rem;
+    max-width: 5rem;
+    object-fit: cover;
+}
+
+div.characterContainerImage p:hover {
+    box-shadow: 0 0 50px 2px rgba(103, 154, 204, 0.3);
+}
+
+img.characterContainerImageImg {
+    object-fit: cover;
+    max-height: 5rem;
+    max-width: 5rem;
+    border-radius: 50%;
+    border: 1px solid var(--color-starwars-normal);
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+
+img.characterContainerImageImg:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 50px 2px rgba(103, 154, 204, 0.3);
+}

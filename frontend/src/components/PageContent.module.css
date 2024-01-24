@@ -1,0 +1,18 @@
+.content {
+  text-align: center;
+}
+
+div.anakinSad {
+  margin: auto;
+  position: relative;
+  height: 20rem;
+  width: 15rem;
+  border-radius: 20px;
+}
+
+div.anakinSad img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}

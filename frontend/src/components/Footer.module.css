@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+    width: 100%; /* Make the footer span the full width of the viewport */
+    padding: 0; /* Add padding to improve visual appearance */
+    color: var(--color-gray-500);
+    font-size: .8rem;
+  }
+
+
+  
